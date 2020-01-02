@@ -27,7 +27,6 @@ As you saw, the application consist of:
 - The wish items were displayed in a `<table>`.
 - Each wish item's `<tr>` had three `<td>`s to display:
 	- The `description` field
-	- The `quantity` field
 	- A "X" link used to delete a wish item
 - After a wish item is added or deleted, the app redirects back to the "Wish Items" page (the root route).
 - When a wish item is deleted, it is not a requirement to confirm the delete - this is optional. It will probably come down to whether you use a simple View Function or a DeleteView to implement the deletion.
